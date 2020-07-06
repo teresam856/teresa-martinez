@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Home from  './Home';
 import Resume from './Resume';
 import About from './About';
+import Footer from './Footer';
 
 import './App.css';
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/about' component={About} />
           <Route path='/resume' component={Resume} />
         </Switch>
+        <Footer></Footer>
       </div>
     </Router>
   );
