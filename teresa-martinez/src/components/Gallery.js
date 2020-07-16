@@ -1,16 +1,15 @@
 import React from 'react';
-
 import Carousel from 'react-bootstrap/Carousel';
-import sunflowers from '../images/plants/sunflowers.png';
-import peaches from '../images/plants/peaches.png';
-import orquid from '../images/plants/orquid.png';
-import sf from '../images/cities/sf.png';
-import berkeley from '../images/cities/berkeley.png';
+
+// import sunflowers from '../images/plants/sunflowers.png';
+// import peaches from '../images/plants/peaches.png';
+// import orquid from '../images/plants/orquid.png';
+
 
 function Gallery(props) {
     return (
         <Carousel>
-            <Carousel.Item>
+            {/* <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src={sunflowers}
@@ -44,7 +43,7 @@ function Gallery(props) {
                 <h3>Third slide label</h3>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
         </Carousel>
     )
 }
