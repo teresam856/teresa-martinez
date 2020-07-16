@@ -13,7 +13,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 class Footer extends Component {
     render() {
         return (
-            <Navbar className="justify-content-center" fixed="bottom" fluid={true}>
+            <Navbar className="justify-content-center border-top bg-white" fixed="bottom">
                 <Nav>
                     <NavLink href="https://www.linkedin.com/in/teresamartinez8/"><FontAwesomeIcon icon={faLinkedin} /></NavLink>
                     <NavLink href="https://github.com/teresam856"><FontAwesomeIcon icon={faGithub} /></NavLink>

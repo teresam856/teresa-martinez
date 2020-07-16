@@ -1,73 +1,44 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure'
-import Hero from '../components/Hero';
+// import Hero from '../components/Hero';
 
-import sf from '../images/cities/sf.png';
-import berkeley from '../images/cities/berkeley.png';
 
-function Home(props) {
-    return (
-        <div>
-            <Hero title={props.title} subtitle={props.subtitle} />
-            <Container>
-                <Row>
-                    <Col>
-                        <p>
-                            In anim amet labore aliqua sunt nostrud est deserunt. 
-                            Minim irure tempor anim tempor enim cillum. 
-                            Veniam tempor voluptate sint culpa proident reprehenderit laboris et aliquip eiusmod.
-                        </p>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={berkeley}
-                            />
-                            <Figure.Caption>
-                                Nulla vitae elit libero, a pharetra augue mollis interdum.
-                            </Figure.Caption>
-                        </Figure>
-                    </Col>
-                    <Col>
-                        <p>
-                            Ut qui mollit dolore tempor reprehenderit sit culpa aliquip mollit est sint dolore commodo consectetur. 
-                            Et commodo culpa ad deserunt ullamco consectetur. Fugiat ullamco dolore sunt commodo magna sit est do 
-                            consectetur consequat commodo eiusmod ut. Eu ex laboris voluptate tempor aliquip id consectetur. 
-                            Consequat aute ex tempor excepteur fugiat officia dolore quis eu est Lorem eu.
-                        </p>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <p>Ut qui mollit dolore tempor reprehenderit sit culpa aliquip mollit est sint dolore commodo consectetur. 
-                            Et commodo culpa ad deserunt ullamco consectetur. Fugiat ullamco dolore sunt commodo magna sit est do 
-                            consectetur consequat commodo eiusmod ut. Eu ex laboris voluptate tempor aliquip id consectetur. 
-                            Consequat aute ex tempor excepteur fugiat officia dolore quis eu est Lorem eu.</p>
-                    </Col>
-                    <Col>
-                        <Figure>
-                            <Figure.Image
-                                width={171}
-                                height={180}
-                                alt="171x180"
-                                src={sf}
-                            />
-                            <Figure.Caption>
-                                Nulla vitae elit libero, a pharetra augue mollis interdum.
-                            </Figure.Caption>
-                        </Figure>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    );
+
+import './Home.css';
+
+class Home extends Component {
+    constructor(props) {
+        super();
+        this.state = {
+
+        }
+    }
+    render() {
+        return (
+            <div class="main-page">
+                <div class="elevator-pitch">
+                    <Row>
+                        <Col>
+                            <h3 className="display-4 ">Hello,</h3>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <p>Magna ea nisi veniam consectetur consectetur pariatur dolore. Magna occaecat eiusmod nostrud in nisi est consectetur excepteur laborum incididunt id do commodo. Magna voluptate veniam ipsum incididunt consequat ad ex ad est qui eiusmod Lorem pariatur.</p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>1</Col>
+                        <Col>2</Col>
+                        <Col>3</Col>
+                    </Row>
+                </div>
+            </div>
+            
+        );
+    }
 }
 export default Home;

@@ -8,12 +8,12 @@ import Col from 'react-bootstrap/Col';
 
 function Hero(props) {
     return (
-        <Jumbotron className="bg-transparent jumbotron-fluid" fluid>
-            <Container fluid={true}>
-                <Row className=" justify-content-lg-start py-5">
+        <Jumbotron className="jumbotron-fluid" bg="dark" fluid>
+            <Container  fluid>
+                <Row>
                     <Col>
-                        { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
-                        { props.subtitle && <h2 className="display-6 font-weight-normal">{props.subtitle}</h2>}
+                        { props.title && <h3 className="display-4 ">{props.title}</h3>}
+                        { props.subtitle && <h5 className="display-5  font-weight-normal">{props.subtitle}</h5>}
                         { props.text && <p className="lead font-weight-light"></p>}
                     </Col>
                 </Row>

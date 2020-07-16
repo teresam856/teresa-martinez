@@ -1,0 +1,70 @@
+
+
+body { 
+    padding-top: 70px;
+    position: absolute;
+}
+
+.main-page {
+    padding: 2%;
+    background-color: red;
+    text-align: center;
+    position: relative;
+}
+
+.elevator-pitch {
+    margin: 3%;
+    padding: 10px;
+    height: 100%;
+    background-color: green;
+}
+
+@media only screen and (max-width: 1020px) {
+    body { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+        
+    }
+    .main-page {
+        height: 100vh;
+        background-color: red;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+        
+    }
+    .main-page {
+        background-color: red;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+       
+    }
+    .main-page {
+        background-color: red;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body { 
+        padding-top: 70px;
+        padding-bottom: 70px; 
+    }
+    .main-page {
+        background-color: red;
+        text-align: center;
+    }
+}
+
+

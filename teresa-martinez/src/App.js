@@ -45,27 +45,24 @@ class App extends Component {
   render() {
     return (
         <div>
-          <Router>
-            <Container>
-              <Navbar collapseOnSelect expand="lg" className='border-bottom' bg="dark" variant="dark" fixed="top">
+            <Router>
+              <Navbar  collapseOnSelect expand="lg" className="justify-content-end" bg="dark" variant="dark" fixed="top" >
                     <Navbar.Brand>
-                    Teresa Martinez
+                      Teresa Martinez
                     </Navbar.Brand>
-
                     <Navbar.Toggle className="border-0" aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-
-                    <Nav className="mr-auto" activeKey="/home">
-                        <Nav.Item>
-                        <Nav.Link href="/">Home</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                        <Nav.Link href="/about">About Me</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                        <Nav.Link href="/resume">Resume</Nav.Link>
-                        </Nav.Item>
-                    </Nav>
+                      <Nav className="ml-auto" >
+                          <Nav.Item>
+                          <Nav.Link href="/">Home</Nav.Link>
+                          </Nav.Item>
+                          <Nav.Item>
+                          <Nav.Link href="/about">About</Nav.Link>
+                          </Nav.Item>
+                          <Nav.Item>
+                          <Nav.Link href="/resume">Experience</Nav.Link>
+                          </Nav.Item>
+                      </Nav>
                     </Navbar.Collapse>
               </Navbar>
               <Switch>
@@ -73,7 +70,6 @@ class App extends Component {
                 <Route path='/about' component={() =>  <About title={this.state.about.title} subtitle={this.state.about.subtitle} />} />
                 <Route path='/resume' component={() =>  <Resume title={this.state.resume.title} subtitle={this.state.resume.subtitle} />} />
               </Switch>
-            </Container>
           </Router>
           <Footer />
         </div>
