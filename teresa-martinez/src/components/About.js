@@ -27,28 +27,28 @@ class About extends Component {
                         <Container className="content-about parent" fluid>
                             <Container className="header ">
                                 <h3 className="display-4 ">Welcome</h3>
-                                <h5 className="display-5  font-weight-normal">Bienvenidos</h5>
                             </Container>
-                            <Container className="content-text">
-                                <Row className="chunks">
+                            <Container className="content-text ">
+                                <Row className="pb-5 pt-5">
                                     <Col sm={8}>
                                         <p>In consectetur voluptate eiusmod occaecat quis. Ex adipisicing commodo cillum ipsum sint. Dolor proident elit dolore do dolor.</p>
                                     </Col>
                                     <Col sm={4}>
-                                        <Image className="picture" src={berkeley} rounded />
+                                        <Image className="picture" width={171} height={180} src={berkeley}/>
                                     </Col>
                                     
                                 </Row>
-                                <Row>
+                                <Row className="pb-5 pt-5">
                                     <Col sm={4}>
-                                        <Image className="picture" src={sf} rounded />
+                                        <Image className="picture" width={171} height={180} src={sf} />
+                                        <p>hi</p>
                                     </Col>
                                     <Col sm={8}><p>Anim consectetur excepteur laborum labore minim. Sint pariatur qui deserunt adipisicing aliquip dolore nulla ad. Sit ea eu ea Lorem eu est commodo. Reprehenderit do mollit consequat proident ad mollit deserunt irure consectetur commodo id. Sunt cupidatat ea eiusmod laboris non deserunt et commodo mollit.</p></Col>
                                 </Row>
                             </Container>
-                            <Container className="gallery">
-                                {/* <Gallery /> */}
-                            </Container>
+                            {/* <Container className="gallery">
+                                <Gallery />
+                            </Container> */}
                         </Container>
                 </Container>    
         );

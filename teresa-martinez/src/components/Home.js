@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Figure from 'react-bootstrap/Figure'
-// import Hero from '../components/Hero';
+import Typical from 'react-typical';
 
 
 
 import './Home.css';
+// import {centralValley} from '../images/central_valley.png'
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 class Home extends Component {
     constructor(props) {
@@ -18,19 +17,28 @@ class Home extends Component {
     }
     render() {
         return (
-            <Container className="main-page" fluid>
+            <Container className="main-page">
                 <Container className="content-home">
-                    <Container className="elevator-pitch">
-                            <div>
-                                <h3 className="display-4 ">Hello</h3>
-                                <h5 className="display-5  font-weight-normal">I am Teresa</h5>
-                            </div>
-                            <div>   
-                                <p>
-                                    I am a software engineer and bioengineer from Stockton, Ca. 
-                                </p>
-                            </div>
-                    </Container>
+                    <Jumbotron className="bg-transparent">
+                        {/* <h3 className="display-4">Hello</h3>
+                        <h4 className="display-5">I am Teresa</h4> */}
+                        <h1 className="display-6 ">
+                            <Typical
+                                steps={[
+                                    'Hello', 1500,
+                                    'Hello, I am Teresa.', 1500,
+                                    'I am a software engineer.', 1500,
+                                    'I am also a  biomedical engineer.', 1500,
+                                    'I am from Stockton, Ca', 1500,
+                                    'I love coffee.', 1500,
+                                    'I love chocolate.', 1500,
+                                    'I love puppies.', 1500,
+                                    'and I love the outdoors.', 1500,
+                                    'Welcome.', 1500
+                                ]}
+                            />
+                        </h1>
+                    </Jumbotron>
                 </Container>
             </Container>
         );

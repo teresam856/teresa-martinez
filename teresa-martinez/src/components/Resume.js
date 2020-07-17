@@ -5,17 +5,58 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row  from 'react-bootstrap/Row';
-import Table from 'react-bootstrap/Table';
+import Image from 'react-bootstrap/Image';
 import './Resume.css';
+
+import sf from '../images/cities/me.png';
+
+
+// <Col>
+//                                 <Image src={sf} width={180} height={180} roundedCircle />
+
+//                             </Col>
 
 function Resume(props) {
     return (
             <Container  className="main-page" fluid>
                 <Container className="content-about parent" fluid>
                     <Container className="header ">
-                        <h3 className="display-4 ">Experience</h3>
+                        <Row>
+                            <Col >
+                                <h3 className="display-4 ">Experience</h3>
+                            </Col>
+                        </Row>
                     </Container>
-                    <Container className="content-text">
+                    <Container className="content-text border-top">
+                        <h4 className="display-5  font-weight-normal pb-3">Professional Experience</h4>
+                        <Row>
+                            <Col>
+                                
+                                <h6>Capital One</h6>
+                                <h8>Associate software engineer</h8>
+                                <p>
+                                    As a software engineer  for the <b>Center for Machine Learning at Capital One</b>,
+                                    I was primarily responsible for supporting, developing and releasing new features for the Solution Progression Pipeline.
+                                    During my time at Capital One, I was able to work with many frameworks and technologies such as 
+                                    AWS, Jenkins, React, Flask, Angular, and Express. I built an AWS lamda monitor, deployed our Flask microserivices
+                                    to AWS EC2, and modified groovy files to enhance our user's experience with the pipeline.
+                                </p>
+                                <h8>July 2018-March 2020</h8>
+
+                            </Col>
+                            <Col>
+                                <h6>UC Berkeley</h6>
+                                <h8>Research Assistant</h8>
+                                <p>
+                                    As a research assistant for the department of <b>Nuclear Engineering at UC Berkeley</b>, 
+                                    I assisted in the design of a database for the storage of nuclear engineering material information. 
+                                    This information would later be used in the creation of Ashby maps.
+                                </p>
+                                <h8>From September 2015 - May 2016</h8>
+                            </Col>
+                        </Row>
+                       </Container>
+                       <Container className="content-text border-top">
                         <Row className="chunks">
                             <Col>
                                 <h5 className="display-5  font-weight-normal">Languages</h5>
@@ -49,42 +90,13 @@ function Resume(props) {
                                     <li>Git</li>
                                     <li>Jira</li>
                                     <li>Docker</li>
-                                    <li>Mocha/Chai</li>
+                                    <li>Mocha</li>
+                                    <li>Chai</li>
                                 </ul>
                             </Col>
                         </Row>
-                        <Row>
-                            <Col>
-                                <h5 className="display-5  font-weight-normal">Professional Experience</h5>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
-                                
-                                <h6>Capital One</h6>
-                                <h8>Associate software engineer</h8>
-                                <p>
-                                    As a software engineer  for the <b>Center for Machine Learning at Capital One</b>,
-                                    I was primarily responsible for supporting and developing new features for the Solution Progression Pipeline.
-                                    During my time at Capital One I developed features for our Model Progression Flask Microservice,
-                                    worked with AWS to deploy an agent lambda monitor, and served as the release engineer on several occasions. 
-                                </p>
-                                <h8>July 2018-March 2020</h8>
-
-                            </Col>
-                            <Col>
-                                <h6>UC Berkeley</h6>
-                                <h8>Research Assistant</h8>
-                                <p>
-                                    As a research assistant for the department of <b>Nuclear Engineering at UC Berkeley</b>, 
-                                    I assited in the design of a database to store nuclear engineering materials that 
-                                    would later be used in the creation of Ashy maps.
-                                </p>
-                                <h8>From September 2015 - May 2016</h8>
-                            </Col>
-                        </Row>
                     </Container>
-                    <Container className="resume">
+                    <Container className="resume border-top">
                         <Row>
                             <Col>
                                 <p>For more details, feel free to reach me at <b>tmartinez@berkeley.edu </b></p>
@@ -92,7 +104,7 @@ function Resume(props) {
                         </Row>
                         <Row>
                             <Col>
-                                For a pdf version of my resume download down:   
+                                For a pdf version of my resume, download: {' '}   
                                 <a href={process.env.PUBLIC_URL + '/images/resume_test.pdf'} target="_blank" dowload>
                                     here
                                 </a>

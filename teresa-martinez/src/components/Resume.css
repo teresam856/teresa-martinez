@@ -9,18 +9,20 @@
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 30px;
-    background-color: grey;
+    color: #CCA43B;
+
+    /* background-color: grey; */
 }
 .header {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: purple;
+    /* background-color: purple; */
     text-align: center;
 }
 .content-text {
-    background-color: seagreen;
+    /* background-color: seagreen; */
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 10px;
@@ -31,7 +33,7 @@
     padding-bottom: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: pink;
+    /* background-color: pink; */
     text-align: center;
 }
 

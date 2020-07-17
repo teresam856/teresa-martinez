@@ -19,7 +19,7 @@ library.add(faEnvelope)
 class Footer extends Component {
     render() {
         return (
-            <Navbar className="justify-content-center border-top bg-transparent" fixed="bottom">
+            <Navbar className="justify-content-center bg-light" fixed="bottom">
                 <Nav>
                     <NavLink href="https://www.linkedin.com/in/teresamartinez8/"><FontAwesomeIcon icon={faLinkedin} /></NavLink>
                     <NavLink href="https://github.com/teresam856"><FontAwesomeIcon icon={faGithub} /></NavLink>

@@ -1,19 +1,16 @@
 body { 
-    /* margin: 40px;
-    padding-top: 50px;
-    padding-bottom: 70px; */
-    background-color: rgba(166, 156, 211, 0.568);
+    background-color: #242F40;
 }
 #root {
     margin-top: 57px;
     margin-bottom: 57px;
-    /* padding-top: 50px;
-    padding-bottom: 70px; */
-    background-color: pink;
+    height: 82vh;
+    background-color: #242F40;
 }
 
-.color-nav {
-    background-color: rgb(53.2%, 64.7%, 88.6%);
+
+.bg-light {
+    background-color: #E5E5E5!important;
 }
 
 /* @media only screen and (max-width: 1020px) {
