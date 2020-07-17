@@ -1,4 +1,18 @@
-.carousel-inner > .item > img {
-    width:640px;
-    height:360px;
-  }
+.picture {
+  height: 180px;
+  width: 100%;
+  
+}
+.carousel-container {
+  background-color: slateblue;
+}
+
+.carousel-box {
+  background-color: springgreen;
+}
+/* .childr {
+  position: relative;
+}
+.parent {
+  position: absolute;
+} */

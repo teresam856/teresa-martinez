@@ -46,7 +46,7 @@ class App extends Component {
     return (
         <div>
             <Router>
-              <Navbar  collapseOnSelect expand="lg" className="justify-content-end" bg="dark" variant="dark" fixed="top" >
+              <Navbar collapseOnSelect expand="lg" className="color-nav justify-content-end" fixed="top" >
                     <Navbar.Brand>
                       Teresa Martinez
                     </Navbar.Brand>

@@ -18,26 +18,21 @@ class Home extends Component {
     }
     render() {
         return (
-            <div class="main-page">
-                <div class="elevator-pitch">
-                    <Row>
-                        <Col>
-                            <h3 className="display-4 ">Hello,</h3>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <p>Magna ea nisi veniam consectetur consectetur pariatur dolore. Magna occaecat eiusmod nostrud in nisi est consectetur excepteur laborum incididunt id do commodo. Magna voluptate veniam ipsum incididunt consequat ad ex ad est qui eiusmod Lorem pariatur.</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>1</Col>
-                        <Col>2</Col>
-                        <Col>3</Col>
-                    </Row>
-                </div>
-            </div>
-            
+            <Container className="main-page" fluid>
+                <Container className="content-home">
+                    <Container className="elevator-pitch">
+                            <div>
+                                <h3 className="display-4 ">Hello</h3>
+                                <h5 className="display-5  font-weight-normal">I am Teresa</h5>
+                            </div>
+                            <div>   
+                                <p>
+                                    I am a software engineer and bioengineer from Stockton, Ca. 
+                                </p>
+                            </div>
+                    </Container>
+                </Container>
+            </Container>
         );
     }
 }

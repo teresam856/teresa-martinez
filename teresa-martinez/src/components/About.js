@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Figure from 'react-bootstrap/Figure';
+import Image from 'react-bootstrap/Image';
+
 import Gallery from '../components/Gallery';
 // import Hero from '../components/Hero';
 // import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -22,61 +23,34 @@ class About extends Component {
     }
     render() {
         return (
-            <div>
-                <Container  fluid>
-                        <Container>
-                            <Row>
-                                <Col>
-                                    <h3 className="display-4 ">Welcome</h3>
-                                    <h5 className="display-5  font-weight-normal">Bienvenidos</h5>
-                                </Col>
-                            </Row>
-
+                <Container  className="main-page" fluid>
+                        <Container className="content-about parent" fluid>
+                            <Container className="header ">
+                                <h3 className="display-4 ">Welcome</h3>
+                                <h5 className="display-5  font-weight-normal">Bienvenidos</h5>
+                            </Container>
+                            <Container className="content-text">
+                                <Row className="chunks">
+                                    <Col sm={8}>
+                                        <p>In consectetur voluptate eiusmod occaecat quis. Ex adipisicing commodo cillum ipsum sint. Dolor proident elit dolore do dolor.</p>
+                                    </Col>
+                                    <Col sm={4}>
+                                        <Image className="picture" src={berkeley} rounded />
+                                    </Col>
+                                    
+                                </Row>
+                                <Row>
+                                    <Col sm={4}>
+                                        <Image className="picture" src={sf} rounded />
+                                    </Col>
+                                    <Col sm={8}><p>Anim consectetur excepteur laborum labore minim. Sint pariatur qui deserunt adipisicing aliquip dolore nulla ad. Sit ea eu ea Lorem eu est commodo. Reprehenderit do mollit consequat proident ad mollit deserunt irure consectetur commodo id. Sunt cupidatat ea eiusmod laboris non deserunt et commodo mollit.</p></Col>
+                                </Row>
+                            </Container>
+                            <Container className="gallery">
+                                {/* <Gallery /> */}
+                            </Container>
                         </Container>
-                    
-
-                        <Container>
-                            <Row>
-                                <Col>
-                                    <Figure>
-                                        <Figure.Image
-                                            width={171}
-                                            height={180}
-                                            alt="171x180"
-                                            src={berkeley}
-                                        />
-                                    </Figure>
-                                </Col>
-                                <Col>
-                                    <p>
-                                    Aliqua est elit fugiat incididunt tempor commodo non culpa voluptate ad Lorem duis. Amet velit quis id dolor. Laboris dolor consequat et adipisicing laborum duis magna do amet amet velit sint aute. Commodo ut pariatur laboris eiusmod esse qui cillum. Nostrud quis incididunt officia in do est laborum do consectetur aute duis voluptate culpa.
-                                    </p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <p>
-                                        Aliqua est elit fugiat incididunt tempor commodo non culpa voluptate ad Lorem duis. Amet velit quis id dolor. Laboris dolor consequat et adipisicing laborum duis magna do amet amet velit sint aute. Commodo ut pariatur laboris eiusmod esse qui cillum. Nostrud quis incididunt officia in do est laborum do consectetur aute duis voluptate culpa.
-                                    </p>
-                                </Col>
-                                <Col>
-                                    <Figure>
-                                        <Figure.Image
-                                            width={171}
-                                            height={180}
-                                            alt="171x180"
-                                            src={sf}
-                                        />
-                                    </Figure>
-                                </Col>
-                            </Row>
-                            <p>----------------------</p>
-                            <Row>
-                                <Gallery/>
-                            </Row>
-                        </Container>
-                </Container>
-            </div>    
+                </Container>    
         );
     }
 }

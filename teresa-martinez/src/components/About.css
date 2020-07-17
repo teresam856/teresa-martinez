@@ -1,3 +1,50 @@
+
+
+.main-page {
+    width: 100%;
+    height: 88vh;
+    background-color:black;
+    color: white;
+}
+.content-about {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: grey;
+}
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: purple;
+    text-align: center;
+}
+.content-text {
+    background-color: seagreen;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.chunks {
+    margin-bottom: 10px;
+}
+.gallery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: pink;
+    text-align: center;
+}
+
+.picture {
+    height: 171px;
+    width: 180px;
+}
+
+
 /* body { 
     margin: 40px;
     padding-top: 70px;

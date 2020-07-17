@@ -1,40 +1,40 @@
-/* 
-@media only screen and (max-width: 1020px) {
-    body { 
-        background-color: green;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
+
+.main-page {
+    width: 100%;
+    height: 88vh;
+    color: white;
 }
 
-@media only screen and (max-width: 900px) {
-    body { 
-        background-color: yellow;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
+.content-about {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: grey;
+}
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: purple;
+    text-align: center;
+}
+.content-text {
+    background-color: seagreen;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    body { 
-        background-color: blue;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
+.resume {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: pink;
+    text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
-    body { 
-        background-color: red; 
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
+.chunks {
+    margin-bottom: 10px;
 }
-body { 
-    margin: 40px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    height: 100vh;
-    width: 100%; 
-    position: absolute
-} */
