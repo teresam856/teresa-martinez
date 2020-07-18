@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-import Gallery from '../components/Gallery';
-// import Hero from '../components/Hero';
-// import Jumbotron from 'react-bootstrap/Jumbotron';
 
-
-
+import Gallery from '../Gallery/Gallery';
+// Styling sheets
 import './About.css';
 
 class About extends Component {
@@ -21,9 +19,9 @@ class About extends Component {
     }
     render() {
         return (
-                <Container  className="main-page" fluid>
+                <Container  className="main-page-about" fluid>
                         <Container className="content-about parent" fluid>
-                            <Container className="header ">
+                            <Container className="header-about">
                                 <h3 className="display-4 ">Welcome! </h3>
                             </Container>
                             <Container className="content-text ">
@@ -37,7 +35,7 @@ class About extends Component {
                                             I studied BioEngineering with a 
                                             concetration in Biomedical Imaging at <b>UC Berkeley</b>. 
                                             During my time at Cal, I played intramural soccer, I was part of the board for the Hispanic 
-                                            Engineers and Scientists club, and I was also a lab assistant for the introductory CS course
+                                            Engineers and Scientists club, and I was also a lab assistant for the introductory progamming course
                                             CS61a. 
                                         </p>
                                     </Col>
@@ -53,7 +51,7 @@ class About extends Component {
                                     <Col sm={7}>
                                         <p>
                                             On my free time I enjoy baking, gardening and weight training.
-                                            But most recently I have began to enjoy and practive my running.
+                                            But most recently I have begun to work on my running.
                                             I like to try new coffee shops, but most often you will find me 
                                             in the comfort of my house drinking a cup of joe while watching
                                             my favorite street food or true crime show.

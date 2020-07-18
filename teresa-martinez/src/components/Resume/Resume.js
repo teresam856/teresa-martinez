@@ -8,9 +8,9 @@ import './Resume.css';
 
 function Resume() {
     return (
-            <Container  className="main-page" fluid>
-                <Container className="content-about parent" fluid>
-                    <Container className="header ">
+            <Container  className="main-page-resume" fluid>
+                <Container className="content-resume" fluid>
+                    <Container className="header-resume">
                         <Row>
                             <Col >
                                 <h3 className="display-4 ">Experience</h3>
@@ -60,8 +60,8 @@ function Resume() {
                             </Col>
                         </Row>
                        </Container>
-                       <Container className="content-text border-top">
-                        <Row className="chunks">
+                       <Container className="pt-3 pb-3 border-top mt-1">
+                        <Row >
                             <Col>
                                 <h5 className="display-5  font-weight-normal">Languages</h5>
                                 <ul>

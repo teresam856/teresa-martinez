@@ -1,0 +1,31 @@
+
+.main-page-about {
+    width: 100%;
+    color: #242F40;
+}
+.content-about {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #242F40;
+}
+.header-about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.content-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}

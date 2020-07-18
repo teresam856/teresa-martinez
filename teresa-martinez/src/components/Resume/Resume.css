@@ -1,0 +1,34 @@
+
+.main-page-resume {
+    width: 100%;
+    color: #D5573B;
+}
+
+.content-resume {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-resume {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: purple; */
+    /* text-align: center; */
+}
+.content-text {
+    /* background-color: seagreen; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resume {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+

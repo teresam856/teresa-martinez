@@ -4,10 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 // Import Components
-import Home from  './components/Home';
-import Resume from './components/Resume';
-import About from './components/About';
-import Footer from './components/Footer';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+import Resume from './components/Resume/Resume';
 
 // Styling Sheets
 import './App.css';
@@ -23,9 +23,9 @@ class App extends Component {
     return (
         <div>
             <Router>
-              <Navbar collapseOnSelect expand="lg" className="justify-content-end bg-light"  fixed="top" >
+              <Navbar collapseOnSelect expand="lg" className="justify-content-end  navs" variant="dark" sticky="top" >
                     <Navbar.Brand>
-                      Teresa Martinez
+                      <p className="branding">Teresa Martinez</p>
                     </Navbar.Brand>
                     <Navbar.Toggle className="border-0" aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse  id="responsive-navbar-nav">

@@ -1,74 +1,14 @@
-/* #root {
-    margin-top: 57px;
-    position: relative; 
-     background-color: #242F40;
-} */
-
-
-/* .bg-light {
-    background-color: #E5E5E5!important;
-} */
-
-/* @media only screen and (max-width: 1020px) {
-    body { 
-        background-color: green;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    #root {
-        margin-top: .074%;
-        margin-bottom: .074%;
-        height: 98%;
-        background-color: pink;
-    }
+#root {
+    /* margin-top: 57px;
+    margin-bottom: 57px; */
+    width: 100vw;
+    background-color: black;
 }
 
-@media only screen and (max-width: 900px) {
-    body { 
-        background-color: yellow;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    #root {
-        margin-top: .074%;
-        margin-bottom: .074%;
-        height: 98%;
-        background-color: pink;
-    }
+.navs {
+    background-color: black;
 }
 
-@media only screen and (max-width: 768px) {
-    body { 
-        background-color: blue;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    #root {
-        margin-top: .074%;
-        margin-bottom: .074%;
-        height: 98%;
-        background-color: pink;
-    }
+.branding {
+    color: #cca43bff
 }
-
-@media only screen and (max-width: 480px) {
-    body { 
-        background-color: red; 
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    #root {
-        margin-top: .074%;
-        margin-bottom: .074%;
-        height: 98%;
-        background-color: pink;
-    }
-}
-body { 
-    margin: 40px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    height: 100vh;
-    width: 100%; 
-    position: absolute
-} */

@@ -4,10 +4,10 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 
 
-import sunset from '../images/plants/sunset.png';
-import sunflowers from '../images/plants/sunflowers.png';
-import peaches from '../images/plants/peaches.png';
-import orquid from '../images/plants/orquid.png';
+import sunset from '../../images/plants/sunset.png';
+import sunflowers from '../../images/plants/sunflowers.png';
+import peaches from '../../images/plants/peaches.png';
+import orquid from '../../images/plants/orquid.png';
 
 
 import './Gallery.css';
