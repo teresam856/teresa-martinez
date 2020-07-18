@@ -8,8 +8,6 @@ import Gallery from '../components/Gallery';
 // import Hero from '../components/Hero';
 // import Jumbotron from 'react-bootstrap/Jumbotron';
 
-import sf from '../images/cities/sf.png';
-import berkeley from '../images/cities/berkeley.png';
 
 
 import './About.css';
@@ -26,29 +24,52 @@ class About extends Component {
                 <Container  className="main-page" fluid>
                         <Container className="content-about parent" fluid>
                             <Container className="header ">
-                                <h3 className="display-4 ">Welcome</h3>
+                                <h3 className="display-4 ">Welcome! </h3>
                             </Container>
                             <Container className="content-text ">
                                 <Row className="pb-5 pt-5">
-                                    <Col sm={8}>
-                                        <p>In consectetur voluptate eiusmod occaecat quis. Ex adipisicing commodo cillum ipsum sint. Dolor proident elit dolore do dolor.</p>
+                                    <Col sm={7}>
+                                        <p>
+                                            Hello, I am Teresa Martinez and I am 23 years old. 
+                                            I am from Stockton, California. 
+                                        </p>
+                                        <p>
+                                            I studied BioEngineering with a 
+                                            concetration in Biomedical Imaging at <b>UC Berkeley</b>. 
+                                            During my time at Cal, I played intramural soccer, I was part of the board for the Hispanic 
+                                            Engineers and Scientists club, and I was also a lab assistant for the introductory CS course
+                                            CS61a. 
+                                        </p>
                                     </Col>
-                                    <Col sm={4}>
-                                        <Image className="picture" width={171} height={180} src={berkeley}/>
+                                    <Col sm={5}>
+                                        {/* <Image className="picture" width={171} height={180} src={berkeley}/> */}
                                     </Col>
                                     
                                 </Row>
                                 <Row className="pb-5 pt-5">
-                                    <Col sm={4}>
-                                        <Image className="picture" width={171} height={180} src={sf} />
-                                        <p>hi</p>
+                                    <Col sm={5}>
+                                        {/* <Image className="picture" width={171} height={180} src={sf} /> */}
                                     </Col>
-                                    <Col sm={8}><p>Anim consectetur excepteur laborum labore minim. Sint pariatur qui deserunt adipisicing aliquip dolore nulla ad. Sit ea eu ea Lorem eu est commodo. Reprehenderit do mollit consequat proident ad mollit deserunt irure consectetur commodo id. Sunt cupidatat ea eiusmod laboris non deserunt et commodo mollit.</p></Col>
+                                    <Col sm={7}>
+                                        <p>
+                                            On my free time I enjoy baking, gardening and weight training.
+                                            But most recently I have began to enjoy and practive my running.
+                                            I like to try new coffee shops, but most often you will find me 
+                                            in the comfort of my house drinking a cup of joe while watching
+                                            my favorite street food or true crime show.
+                                        </p>
+                                        <p>
+                                            Although I am a homebody, I also love to travel. Exploring new cities is so interesting to me.
+                                            I get to try new food stands and I get to meet new people. Some of my favorite cities that I had 
+                                            the opportunity to visit were Seattle, Washington DC, and San Francisco. 
+                                            Down below you can find some of my favorite pictures from the past years.
+                                        </p>
+                                    </Col>
                                 </Row>
                             </Container>
-                            {/* <Container className="gallery">
+                            <Container className="gallery">
                                 <Gallery />
-                            </Container> */}
+                            </Container>
                         </Container>
                 </Container>    
         );

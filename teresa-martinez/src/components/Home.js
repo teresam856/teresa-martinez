@@ -17,7 +17,7 @@ class Home extends Component {
     }
     render() {
         return (
-            <Container className="main-page">
+            <Container className="main-page-home">
                 <Container className="content-home">
                     <Jumbotron className="bg-transparent">
                         {/* <h3 className="display-4">Hello</h3>

@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
 
 // Import Components
 import Home from  './components/Home';
@@ -11,8 +10,6 @@ import About from './components/About';
 import Footer from './components/Footer';
 
 // Styling Sheets
-
-
 import './App.css';
 
 
@@ -20,26 +17,6 @@ class App extends Component {
   constructor(props) {
     super();
     this.state = {
-      title: "Teresa Martinez",
-      // navLinks: [
-      //   {title: "Home", path: "/"},
-      //   {title: "About", path: "/about"},
-      //   {title: "Resume", path:"/resume"},
-      //   {title: "Contact", path: "/contact"}
-      // ],
-      home: {
-        title: 'Welcome!',
-        subtitle: "Bienvenidos!"
-      },
-      about: {
-        title: 'About Me',
-        subtitle: "Conoceme un poco mas"
-      },
-      resume: {
-        title: 'Experience',
-        subtitle: "Resume"
-      }
-
     }
   }
   render() {
@@ -66,9 +43,9 @@ class App extends Component {
                     </Navbar.Collapse>
               </Navbar>
               <Switch>
-                <Route exact path='/' component={() =>  <Home title={this.state.home.title} subtitle={this.state.home.subtitle} name='Teresa' />} />
-                <Route path='/about' component={() =>  <About title={this.state.about.title} subtitle={this.state.about.subtitle} />} />
-                <Route path='/resume' component={() =>  <Resume title={this.state.resume.title} subtitle={this.state.resume.subtitle} />} />
+                <Route exact path='/' component={() =>  <Home />} />
+                <Route path='/about' component={() =>  <About />} />
+                <Route path='/resume' component={() =>  <Resume/>} />
               </Switch>
           </Router>
           <Footer />

@@ -1,39 +1,35 @@
-/* #root {
+#root {
+    margin-top: 57px;
+    /* position: relative; */
+    /* background-color: #242F40; */
+}
+
+.main-page-home {
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #242F40; */
     background-image: url("../images/central_valley.png");
     background-size: cover;
-} */
+    background-attachment: fixed;
 
-.main-page {
-    padding: 2%;
-    width: 100%;
-    height: 88vh;
-    background-color: #242F40;
 }
 
 .content-home {
-    /* background-color: grey; */
-    border-radius: 1em;
     padding: 1em;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     max-width: 500px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Lucida Sans Typewriter', serif;
-    color: #CCA43B;
-    /* background-color: rgba(66,244,0,.5) */
-    /* text-align: center; */
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%; */
+    color: #E5E5E5;
+    
 }
 .elevator-pitch {
     /* background-color: white; */
-    color: black;
-    /* justify-content: center; */
     text-align: center;
 }
 

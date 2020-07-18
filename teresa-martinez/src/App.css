@@ -1,17 +1,13 @@
-body { 
-    background-color: #242F40;
-}
-#root {
+/* #root {
     margin-top: 57px;
-    margin-bottom: 57px;
-    height: 82vh;
-    background-color: #242F40;
-}
+    position: relative; 
+     background-color: #242F40;
+} */
 
 
-.bg-light {
+/* .bg-light {
     background-color: #E5E5E5!important;
-}
+} */
 
 /* @media only screen and (max-width: 1020px) {
     body { 
