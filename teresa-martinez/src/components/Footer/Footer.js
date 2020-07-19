@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Badge from 'react-bootstrap/Badge';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -23,7 +24,9 @@ class Footer extends Component {
                 <Nav>
                     <NavLink href="https://www.linkedin.com/in/teresamartinez8/"><FontAwesomeIcon icon={faLinkedin} /></NavLink>
                     <NavLink href="https://github.com/teresam856"><FontAwesomeIcon icon={faGithub} /></NavLink>
-                    <NavLink href="tmartinez@berkeley.edu"><FontAwesomeIcon icon={faEnvelope} /></NavLink>
+                    <NavLink href="tmartinez@berkeley.edu" disabled>
+                        <FontAwesomeIcon icon={faEnvelope} />                        
+                    </NavLink>
                 </Nav>
             </Navbar>    
         )

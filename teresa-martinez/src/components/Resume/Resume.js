@@ -3,6 +3,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row  from 'react-bootstrap/Row';
+import Badge from 'react-bootstrap/Badge';
+import Button from 'react-bootstrap/Button';
 
 import './Resume.css';
 
@@ -103,19 +105,13 @@ function Resume() {
                         </Row>
                     </Container>
                     <Container className="resume border-top">
-                        <h5 className="display-5  font-weight-normal">Contact Me!</h5>
-                        <Row>
-                            <Col>
-                                <p>For more details, feel free to reach me at <b>tmartinez@berkeley.edu </b></p>
-                            </Col>
-                        </Row>
-                        <h5 className="display-5  font-weight-normal">Dowload My Resume!</h5>
-                        <Row>
-                            <Col>
-                                For a pdf version of my resume, download: {' '}   
+                        <h5 className="display-5  font-weight-normal">Resume</h5>
+                        <Row className="pt-1">
+                            <Col> 
                                 <a href={process.env.PUBLIC_URL + '/images/resume_test.pdf'} target="_blank" dowload>
-                                    here
+                                    <Button variant="outline-dark">Dowload Resume PDF</Button>
                                 </a>
+                
                             </Col>
                         </Row>
                     </Container>
