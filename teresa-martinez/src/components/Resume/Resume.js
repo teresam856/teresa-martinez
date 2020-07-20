@@ -15,16 +15,16 @@ function Resume() {
                     <Container className="header-resume">
                         <Row>
                             <Col >
-                                <h3 className="display-4 ">Experience</h3>
+                                <h3 className="display-4 titles">Experience</h3>
                             </Col>
                         </Row>
                     </Container>
-                    <Container className="content-text border-top">
-                        <h4 className="display-5  font-weight-normal pb-3">Professional Experience</h4>
+                    <Container className="content-text border-top border-dark">
+                        <h4 className=" subtitles display-5  font-weight-normal pb-3">Professional Experience</h4>
                         <Row>
                             <Col>
                                 
-                                <h6>Capital One</h6>
+                                <h6 >Capital One</h6>
                                 <h8>Associate software engineer</h8>
                                 <p>
                                     As a software engineer  for the <b>Center for Machine Learning at Capital One</b>,
@@ -62,10 +62,10 @@ function Resume() {
                             </Col>
                         </Row>
                        </Container>
-                       <Container className="pt-3 pb-3 border-top mt-1">
+                       <Container className="pt-3 pb-3 border-top border-dark mt-1">
                         <Row >
                             <Col>
-                                <h5 className="display-5  font-weight-normal">Languages</h5>
+                                <h5 className="subtitles display-5  font-weight-normal">Languages</h5>
                                 <ul>
                                     <li>Python</li>
                                     <li>JavaScript</li>
@@ -77,7 +77,7 @@ function Resume() {
                                 </ul>
                             </Col>
                             <Col>
-                                <h5 className="display-5  font-weight-normal">Frameworks</h5>
+                                <h5 className="subtitles display-5  font-weight-normal">Frameworks</h5>
                                 <ul>
                                     <li>Flask</li>
                                     <li>Express</li>
@@ -90,7 +90,7 @@ function Resume() {
                                 </ul>
                             </Col>
                             <Col>
-                                <h5 className="display-5  font-weight-normal">Tools</h5>
+                                <h5 className=" subtitles display-5  font-weight-normal">Tools</h5>
                                 <ul>
                                     <li>AWS</li>
                                     <li>Git</li>
@@ -104,12 +104,12 @@ function Resume() {
                             </Col>
                         </Row>
                     </Container>
-                    <Container className="resume border-top">
-                        <h5 className="display-5  font-weight-normal">Resume</h5>
+                    <Container className="resume border-top border-dark">
+                        <h5 className="subtitles display-5  font-weight-normal">Resume</h5>
                         <Row className="pt-1">
                             <Col> 
                                 <a href={process.env.PUBLIC_URL + '/images/resume_test.pdf'} target="_blank" dowload>
-                                    <Button variant="outline-dark">Dowload Resume PDF</Button>
+                                    <Button variant="outline-light">Dowload Resume PDF</Button>
                                 </a>
                 
                             </Col>

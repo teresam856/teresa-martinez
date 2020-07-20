@@ -1,20 +1,36 @@
 body {
-    background-color: black;
+    background-color: #05050D;
+    background-image: url("../src/images/sky.png");
+    background-size: cover;
     
 }
 
+.titles {
+    /* color: #79940C; */
+    /* color: #a35a31 */
 
+}
+
+.subtitles {
+    color: #dfd7cc;
+
+}
 #root {
     /* margin-top: 57px;
     margin-bottom: 57px; */
     width: 100vw;
-    background-color: black;
+    /* background-color: #F1EBE4; */
 }
 
 .navs {
-    background-color: black;
+    /* background-color: #F1EBE4; */
+    /* background-color: #253141; */
+    background-color: #05050D;
+    /* background-color: #04030a; */
 }
 
 .branding {
-    color: #cca43bff
+    color: #908f92;
+    /* color: #F1EBE4; */
+
 }

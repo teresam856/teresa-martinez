@@ -1,15 +1,19 @@
 
 .main-page-about {
     width: 100%;
-    color: #242F40;
-    background-image: url('../../images/cover.png');
-    background-size: cover;
+    /* color: #253141 */
+    color: #E5E5E5;
+    /* background-image: url('../../images/cover.png');
+    background-size: cover; */
 }
+
 .content-about {
     margin-top: 10px;
-    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
     padding-bottom: 30px;
-    color: #242F40;
+    color: #E5E5E5;
+    /* color: #253141; */
 }
 .header-about {
     padding-top: 30px;

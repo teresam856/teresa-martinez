@@ -1,12 +1,17 @@
+
 .main-page-home {
     width: 100vw;
     height: 88vh;
-    background-image: url("../../images/central_valley.png");
-    background-size: cover;
+    /* background-image: url("../../images/central_valley.png");
+    background-size: cover; */
     /* background-attachment: fixed; */
-    color: #363636;
+    /* background-color: #F1EBE4; */
+    /* color: #E5E5E5; */
+    /* color: #253141; */
+    color: #a35a31
 
 }
+
 
 .content-home {
     padding: 1em;

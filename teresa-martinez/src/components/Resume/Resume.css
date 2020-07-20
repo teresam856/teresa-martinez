@@ -1,9 +1,14 @@
 
 .main-page-resume {
     width: 100%;
-    color: #D5573B;
+    color: #E5E5E5;
+    /* color: #253141 */
 }
 
+/* .borders {
+    border: 5px;
+    border-color: white;
+} */
 .content-resume {
     padding-top: 30px;
     padding-bottom: 30px;

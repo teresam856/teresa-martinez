@@ -7,6 +7,7 @@ import Image from 'react-bootstrap/Image';
 
 
 import Gallery from '../Gallery/Gallery';
+import me from '../../images/me.png'
 // Styling sheets
 import './About.css';
 
@@ -22,11 +23,14 @@ class About extends Component {
                 <Container  className="main-page-about" fluid>
                         <Container className="content-about parent" fluid>
                             <Container className="header-about">
-                                <h3 className="display-4 ">Welcome! </h3>
+                                <h3 className="titles display-4 ">Welcome! </h3>
                             </Container>
-                            <Container className="content-text ">
-                                <Row className="pb-5 pt-5">
-                                    <Col sm={7}>
+                            <Container className="content-text border-top border-dark pt-5">
+                                <Row >
+                                    <Col sm={4}>
+                                        <Image  className="img-responsive center-block" width={220} height={200} src={me} roundedCircle />
+                                    </Col>
+                                    <Col sm={8}>
                                         <p>
                                             Hello, I am Teresa Martinez and I am 23 years old. 
                                             I am from Stockton, California. 
@@ -38,34 +42,19 @@ class About extends Component {
                                             Engineers and Scientists club, and I was also a lab assistant for the introductory progamming course
                                             CS61a. 
                                         </p>
-                                    </Col>
-                                    <Col sm={5}>
-                                        {/* <Image className="picture" width={171} height={180} src={berkeley}/> */}
-                                    </Col>
-                                    
-                                </Row>
-                                <Row className="pb-5 pt-5">
-                                    <Col sm={5}>
-                                        {/* <Image className="picture" width={171} height={180} src={sf} /> */}
-                                    </Col>
-                                    <Col sm={7}>
                                         <p>
-                                            On my free time I enjoy baking, gardening and weight training.
-                                            But most recently I have begun to work on my running.
-                                            I like to try new coffee shops, but most often you will find me 
-                                            in the comfort of my house drinking a cup of joe while watching
-                                            my favorite street food or true crime show.
-                                        </p>
-                                        <p>
-                                            Although I am a homebody, I also love to travel. Exploring new cities is so interesting to me.
-                                            I get to try new food stands and I get to meet new people. Some of my favorite cities that I had 
-                                            the opportunity to visit were Seattle, Washington DC, and San Francisco. 
-                                            Down below you can find some of my favorite pictures from the past years.
-                                        </p>
+                                        On my free time I enjoy baking, gardening and weight training.
+                                        But most recently I have begun to work on my running.
+                                        I also like to try new coffee shops and watch cooking channels.
+                                    </p>
+                                    <p>
+                                        Down below you can find some of my favorite pictures from the past years.
+                                    </p>
                                     </Col>
+            
                                 </Row>
                             </Container>
-                            <Container className="gallery">
+                            <Container className="gallery border-top border-dark pt-5">
                                 <Gallery />
                             </Container>
                         </Container>
