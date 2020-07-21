@@ -14,7 +14,7 @@ import ny  from '../../images/cities/ny.png';
 import washington_mall  from '../../images/cities/wmall.png'
 
 
-
+// hi
 import './Gallery.css';
 
 
