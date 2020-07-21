@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fda591dc962235bcb5a72cc51fdf8835",
+    "revision": "ef2e4f387b176f774fe23ec350662d5f",
     "url": "/teresa-martinez/index.html"
   },
   {
-    "revision": "607350a8c1bdfe6a52d0",
+    "revision": "977b2613f31dc20655ee",
     "url": "/teresa-martinez/static/css/main.8af8ef0c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teresa-martinez/static/js/2.b6b998ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "607350a8c1bdfe6a52d0",
-    "url": "/teresa-martinez/static/js/main.c9468d54.chunk.js"
+    "revision": "977b2613f31dc20655ee",
+    "url": "/teresa-martinez/static/js/main.88c9a5ae.chunk.js"
   },
   {
     "revision": "bf678ff126ec202e4b96",
