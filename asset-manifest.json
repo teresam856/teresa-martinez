@@ -1,23 +1,20 @@
 {
   "files": {
     "main.css": "/teresa-martinez/static/css/main.7669992d.chunk.css",
-    "main.js": "/teresa-martinez/static/js/main.26c3d587.chunk.js",
-    "main.js.map": "/teresa-martinez/static/js/main.26c3d587.chunk.js.map",
+    "main.js": "/teresa-martinez/static/js/main.5d057bab.chunk.js",
+    "main.js.map": "/teresa-martinez/static/js/main.5d057bab.chunk.js.map",
     "runtime-main.js": "/teresa-martinez/static/js/runtime-main.7f4c5641.js",
     "runtime-main.js.map": "/teresa-martinez/static/js/runtime-main.7f4c5641.js.map",
-    "static/js/2.274f7613.chunk.js": "/teresa-martinez/static/js/2.274f7613.chunk.js",
-    "static/js/2.274f7613.chunk.js.map": "/teresa-martinez/static/js/2.274f7613.chunk.js.map",
+    "static/js/2.9241a37f.chunk.js": "/teresa-martinez/static/js/2.9241a37f.chunk.js",
+    "static/js/2.9241a37f.chunk.js.map": "/teresa-martinez/static/js/2.9241a37f.chunk.js.map",
     "index.html": "/teresa-martinez/index.html",
-    "precache-manifest.73fb10639bddf7566539f9a9356fa71a.js": "/teresa-martinez/precache-manifest.73fb10639bddf7566539f9a9356fa71a.js",
+    "precache-manifest.82f94a23572a7205f915ead85fea169c.js": "/teresa-martinez/precache-manifest.82f94a23572a7205f915ead85fea169c.js",
     "service-worker.js": "/teresa-martinez/service-worker.js",
     "static/css/main.7669992d.chunk.css.map": "/teresa-martinez/static/css/main.7669992d.chunk.css.map",
-    "static/js/2.274f7613.chunk.js.LICENSE.txt": "/teresa-martinez/static/js/2.274f7613.chunk.js.LICENSE.txt",
-    "static/media/berkeley.png": "/teresa-martinez/static/media/berkeley.2772ecb3.png",
+    "static/js/2.9241a37f.chunk.js.LICENSE.txt": "/teresa-martinez/static/js/2.9241a37f.chunk.js.LICENSE.txt",
     "static/media/berkeley3.png": "/teresa-martinez/static/media/berkeley3.3e67717a.png",
-    "static/media/me.png": "/teresa-martinez/static/media/me.1cc644e9.png",
     "static/media/me3.png": "/teresa-martinez/static/media/me3.0b26e7b5.png",
     "static/media/ny.png": "/teresa-martinez/static/media/ny.17d4e0f2.png",
-    "static/media/seattle.png": "/teresa-martinez/static/media/seattle.0b8d76e0.png",
     "static/media/sf.png": "/teresa-martinez/static/media/sf.33902835.png",
     "static/media/App.css": "/teresa-martinez/static/media/sky.821a5930.png",
     "static/media/sunflowers.png": "/teresa-martinez/static/media/sunflowers.0eeb8265.png",
@@ -26,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7f4c5641.js",
-    "static/js/2.274f7613.chunk.js",
+    "static/js/2.9241a37f.chunk.js",
     "static/css/main.7669992d.chunk.css",
-    "static/js/main.26c3d587.chunk.js"
+    "static/js/main.5d057bab.chunk.js"
   ]
 }

@@ -1,39 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c74e91f5bd74068bde9d35160a7fcd0f",
+    "revision": "a4f7f7ea268d72f9ad13b5e2a057b0dc",
     "url": "/teresa-martinez/index.html"
   },
   {
-    "revision": "ff7e3e139b774d5208fd",
+    "revision": "64c4e66006e98f3bcb77",
     "url": "/teresa-martinez/static/css/main.7669992d.chunk.css"
   },
   {
-    "revision": "a55128a39e62fbe1e205",
-    "url": "/teresa-martinez/static/js/2.274f7613.chunk.js"
+    "revision": "ff6e9acdc05d33455ff0",
+    "url": "/teresa-martinez/static/js/2.9241a37f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/teresa-martinez/static/js/2.274f7613.chunk.js.LICENSE.txt"
+    "url": "/teresa-martinez/static/js/2.9241a37f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff7e3e139b774d5208fd",
-    "url": "/teresa-martinez/static/js/main.26c3d587.chunk.js"
+    "revision": "64c4e66006e98f3bcb77",
+    "url": "/teresa-martinez/static/js/main.5d057bab.chunk.js"
   },
   {
     "revision": "bf678ff126ec202e4b96",
     "url": "/teresa-martinez/static/js/runtime-main.7f4c5641.js"
   },
   {
-    "revision": "2772ecb3f33420476aa9dcbe7cf01cb2",
-    "url": "/teresa-martinez/static/media/berkeley.2772ecb3.png"
-  },
-  {
     "revision": "3e67717a78b8063afb621e7856b29e2f",
     "url": "/teresa-martinez/static/media/berkeley3.3e67717a.png"
-  },
-  {
-    "revision": "1cc644e929c36f2f33504c14a4591301",
-    "url": "/teresa-martinez/static/media/me.1cc644e9.png"
   },
   {
     "revision": "0b26e7b57c4453344bf442b3ae36b463",
@@ -42,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17d4e0f219e421bf1a638bb3e11bbaf9",
     "url": "/teresa-martinez/static/media/ny.17d4e0f2.png"
-  },
-  {
-    "revision": "0b8d76e0a0729df323d3871d9b0cb9ed",
-    "url": "/teresa-martinez/static/media/seattle.0b8d76e0.png"
   },
   {
     "revision": "33902835250f69724891519eccb521c9",
