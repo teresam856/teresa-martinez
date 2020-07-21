@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef2e4f387b176f774fe23ec350662d5f",
+    "revision": "c74e91f5bd74068bde9d35160a7fcd0f",
     "url": "/teresa-martinez/index.html"
   },
   {
-    "revision": "977b2613f31dc20655ee",
-    "url": "/teresa-martinez/static/css/main.8af8ef0c.chunk.css"
+    "revision": "ff7e3e139b774d5208fd",
+    "url": "/teresa-martinez/static/css/main.7669992d.chunk.css"
   },
   {
-    "revision": "a0c6f0e1b28adeff6fc7",
-    "url": "/teresa-martinez/static/js/2.b6b998ef.chunk.js"
+    "revision": "a55128a39e62fbe1e205",
+    "url": "/teresa-martinez/static/js/2.274f7613.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/teresa-martinez/static/js/2.b6b998ef.chunk.js.LICENSE.txt"
+    "url": "/teresa-martinez/static/js/2.274f7613.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "977b2613f31dc20655ee",
-    "url": "/teresa-martinez/static/js/main.88c9a5ae.chunk.js"
+    "revision": "ff7e3e139b774d5208fd",
+    "url": "/teresa-martinez/static/js/main.26c3d587.chunk.js"
   },
   {
     "revision": "bf678ff126ec202e4b96",
