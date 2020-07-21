@@ -109,7 +109,7 @@ function Resume() {
                             </Col>
                         </Row>
                     </Container>
-                    <Container className="resume border-top border-dark pb-5">
+                    {/* <Container className="resume border-top border-dark pb-5">
                         <h5 className="subtitles display-5  font-weight-normal">Resume</h5>
                         <Row className="pt-1">
                             <Col> 
@@ -119,7 +119,7 @@ function Resume() {
                             </Col>
                             
                         </Row>
-                    </Container>
+                    </Container> */}
                 </Container>
             </Container>    
     );

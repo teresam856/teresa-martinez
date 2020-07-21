@@ -2,7 +2,7 @@ body {
     background-color: #05050D;
     background-image: url("../src/images/sky.png");
     background-size: cover;
-    
+    background-attachment: fixed;    
 }
 
 .titles {
