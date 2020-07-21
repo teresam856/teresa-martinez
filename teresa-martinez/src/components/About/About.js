@@ -7,7 +7,6 @@ import Image from 'react-bootstrap/Image';
 
 
 import Gallery from '../Gallery/Gallery';
-import me from '../../images/me.png';
 import me3 from '../../images/me3.png'
 
 // Styling sheets

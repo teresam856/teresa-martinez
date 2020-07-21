@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import Badge from 'react-bootstrap/Badge';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavLink from 'react-bootstrap/NavLink';
 import Nav from 'react-bootstrap/Nav';

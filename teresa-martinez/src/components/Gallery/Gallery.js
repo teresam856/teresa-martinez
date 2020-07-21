@@ -4,11 +4,8 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 
 import berkeley3 from '../../images/cities/berkeley3.png';
-import berkeley from '../../images/cities/berkeley.png'
-
 import sunflowers from '../../images/sunflowers.png';
 import sunset from '../../images/sunset.png';
-import seattle from '../../images/cities/seattle.png';
 import sf from '../../images/cities/sf.png';
 import ny  from '../../images/cities/ny.png';
 import washington_mall  from '../../images/cities/wmall.png'
