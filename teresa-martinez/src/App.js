@@ -31,21 +31,21 @@ class App extends Component {
                     <Navbar.Collapse  id="responsive-navbar-nav">
                       <Nav className="ml-auto color-nav" >
                           <Nav.Item>
-                          <Nav.Link href="/">Home</Nav.Link>
+                          <Nav.Link href={process.env.PUBLIC_URL + '/'} >Home</Nav.Link>
                           </Nav.Item>
                           <Nav.Item>
-                          <Nav.Link href="/about">About</Nav.Link>
+                          <Nav.Link href={process.env.PUBLIC_URL + '/about'}>About</Nav.Link>
                           </Nav.Item>
                           <Nav.Item>
-                          <Nav.Link href="/resume">Experience</Nav.Link>
+                          <Nav.Link href={process.env.PUBLIC_URL + '/resume'}>Experience</Nav.Link>
                           </Nav.Item>
                       </Nav>
                     </Navbar.Collapse>
               </Navbar>
               <Switch>
-                <Route exact path='/' component={() =>  <Home />} />
-                <Route path='/about' component={() =>  <About />} />
-                <Route path='/resume' component={() =>  <Resume/>} />
+                <Route exact path={process.env.PUBLIC_URL + '/'} component={() =>  <Home />} />
+                <Route path={process.env.PUBLIC_URL + '/about'} component={() =>  <About />} />
+                <Route path={process.env.PUBLIC_URL + '/resume'} component={() =>  <Resume/>} />
               </Switch>
           </Router>
           <Footer />
