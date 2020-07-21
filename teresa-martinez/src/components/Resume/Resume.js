@@ -47,6 +47,11 @@ function Resume() {
                                     confluence and Github to plan and communicate with other teams. Tested the applications
                                     using Mocha and Chai.
                                 </p>
+                                <p>
+                                    Project:{' '} <a href="https://elegant-hodgkin-f79765.netlify.app/?fbclid=IwAR0HKzMoh8Pvm8njaynyQz1XopfDDZ3xWnQAdeInuBrhLCocT1H88HtVhe4" >
+                                    SETS
+                                </a>
+                                </p>
                                 <h8>Jul 2018 - Jan 2019 | Vienna, VA </h8>
 
                             </Col>
@@ -104,15 +109,15 @@ function Resume() {
                             </Col>
                         </Row>
                     </Container>
-                    <Container className="resume border-top border-dark">
+                    <Container className="resume border-top border-dark pb-5">
                         <h5 className="subtitles display-5  font-weight-normal">Resume</h5>
                         <Row className="pt-1">
                             <Col> 
                                 <a href={process.env.PUBLIC_URL + '/images/resume_test.pdf'} target="_blank" dowload>
                                     <Button variant="outline-light">Dowload Resume PDF</Button>
                                 </a>
-                
                             </Col>
+                            
                         </Row>
                     </Container>
                 </Container>

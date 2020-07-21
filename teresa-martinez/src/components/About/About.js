@@ -7,7 +7,9 @@ import Image from 'react-bootstrap/Image';
 
 
 import Gallery from '../Gallery/Gallery';
-import me from '../../images/me.png'
+import me from '../../images/me.png';
+import me3 from '../../images/me3.png'
+
 // Styling sheets
 import './About.css';
 
@@ -28,7 +30,7 @@ class About extends Component {
                             <Container className="content-text border-top border-dark pt-5">
                                 <Row >
                                     <Col sm={4}>
-                                        <Image  className="img-responsive center-block" width={220} height={200} src={me} roundedCircle />
+                                        <Image  className="img-responsive center-block" width={200} height={200} src={me3} roundedCircle/>
                                     </Col>
                                     <Col sm={8}>
                                         <p>
