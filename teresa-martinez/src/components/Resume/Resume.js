@@ -109,17 +109,24 @@ function Resume() {
                             </Col>
                         </Row>
                     </Container>
-                    {/* <Container className="resume border-top border-dark pb-5">
-                        <h5 className="subtitles display-5  font-weight-normal">Resume</h5>
+                    <Container className="resume border-top border-dark pb-5">
+                        <h5 className="subtitles display-5  font-weight-normal">Contact Me!</h5>
                         <Row className="pt-1">
                             <Col> 
-                                <a href={process.env.PUBLIC_URL + '/images/resume_test.pdf'} target="_blank" dowload>
-                                    <Button variant="outline-light">Dowload Resume PDF</Button>
-                                </a>
+                            
+                                    <li>
+                                        Email: {' '} tmartinez@berkeley.edu
+                                    </li>
+                                    <li>
+                                        LinkedIn: {' '} <a href="https://www.linkedin.com/in/teresamartinez8/" alt="linkedIn">connect with me!</a>
+                                    </li>
+                                    <li>
+                                        Github: {' '} <a href="https://github.com/teresam856" alt="github">Github Account</a>
+                                    </li>
                             </Col>
                             
                         </Row>
-                    </Container> */}
+                    </Container>
                 </Container>
             </Container>    
     );
